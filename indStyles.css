@@ -1,0 +1,46 @@
+body,head{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+}
+.parentElement{
+    min-height: 100vh;
+    min-width: 100vw;
+    background-image: url("bg3.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    opacity: 0.8;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;  
+}
+.cafElement{
+    background-color: rgb(0, 0, 0);
+    border-radius: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    color: rgb(240, 241, 208);
+    margin-bottom: 75px;
+    margin-left: 25PX;
+}
+.btn{
+    padding-top: 0;
+    margin-top: 0;
+    margin-bottom: 10px;
+    border-radius: 15px;
+    background-color: rgb(206, 243, 147);
+}
+.btn:hover{
+    transform: scale(1.5);
+    color: rgb(94, 82, 64);
+}
+.aSty{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+.aSty:hover{
+    color: rgb(65, 10, 196);
+}
