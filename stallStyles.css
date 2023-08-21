@@ -6,10 +6,7 @@ head,body{
 h1{
     font-style: italic;
 }
-.text1{
-    display: inline;
-    padding: 0;
-}
+
 .paraStall{
     min-width: 100vw;
     min-height: 100vh;
@@ -29,16 +26,16 @@ h1{
     text-align: center;
     
 }
-.content1,.content2,.content3,.content4,.content5{
-    width: 80%;
-    height:100%;
-    background-color: black;
-    border-radius: 10px;
-    border: 2px solid red;
+.child1,.child2,.child3,.child4,.child5{
+    display: flex;
+    align-items: stretch;
 }
-.img1,.img2,.img3.img4,.img5{
-    display: inline;
-    width:20%;
-    height:100%;
-    background-color: blueviolet;
+.head1,.head2,.head3,.head4,.head5{
+    margin:0;
+}
+.para1,.para2,.para3,.para4,.para5{
+    margin-top: 0;
+}
+.enterImage1,.enterImage2,.enterImage3,.enterImage4,.enterImage5{
+    border-radius: 10px;
 }

@@ -1,0 +1,67 @@
+body,head{
+    padding :0;
+    margin: 0;
+    height: 100%;
+    width: 100%;
+}
+.parentStall{
+    min-height: 100vh;
+    min-width: 100vw;
+    background-image: url(./teaStall.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    opacity: 0.9;
+}
+.childClass{
+
+}
+.paraCoffee{
+    margin-top:0;
+    padding-top : 0;
+    margin-bottom: 0;
+    padding-bottom: 0;
+    font-style: italic;
+    color: red;
+}
+.menu{
+    margin-top: 15px;
+    margin-bottom: 25px;
+}
+.headCoffee{
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+.tea{
+    width:50%;
+    height:500px;
+    background-image: url("./tea1.webp");
+    border-radius: 10px;
+    background-size: cover;
+    text-align: center;
+    margin-bottom: 50px;
+    opacity:0.9;
+}
+.coffee{
+    width:50%;
+    height:500px;
+    background-image:url("./coffee1.jpeg");
+    border-radius: 10px;
+    background-size: cover;
+    text-align: center;
+    margin-bottom: 50px;
+    opacity:0.9;
+}
+.specialCoffee{
+    width:50%;
+    height:500px;
+    background-image: url("./coffee.webp");
+    border-radius: 10px;
+    text-align: center;
+    background-size: cover;
+    opacity: 0.9;
+}
